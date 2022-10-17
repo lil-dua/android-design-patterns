@@ -1,5 +1,8 @@
 package tech.demoproject.android_design_patterns.creational_patterns.singleton_pattern;
 
+import retrofit.GsonConverterFactory;
+import retrofit.Retrofit;
+
 /** Đây là một ví dụ về dùng Singleton với Retrofit
  *
  * Trong một ứng dụng Android, bạn sẽ cần instance của đối tượng Retrofit để các phần khác của
@@ -8,8 +11,6 @@ package tech.demoproject.android_design_patterns.creational_patterns.singleton_p
  * lãng phí tài nguyên bộ nhớ.
  * */
 
-/* import retrofit2.Retrofit;
- import retrofit2.converter.gson.GsonConverterFactory;
  public class RetrofitClient {
 
     private static Retrofit retrofit = null;
@@ -25,5 +26,3 @@ package tech.demoproject.android_design_patterns.creational_patterns.singleton_p
     }
 
  }
-
- */
